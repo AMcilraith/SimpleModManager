@@ -1,0 +1,3 @@
+; UE4SS mod load order. One mod name per line.
+; Install mods via Mod Manager > Install Mod from Zip, then list enabled mods here.
+; Built-in UE4SS mods (Keybinds, ConsoleCommandsMod, etc.) ship with UE4SS in ModManager\UE4SS\ue4ss\Mods.

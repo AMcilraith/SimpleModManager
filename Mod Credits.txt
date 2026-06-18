@@ -1,0 +1,7 @@
+Engine.ini presets
+  Quality (High-Quality, Balanced-Quality): Vercadi — https://www.nexusmods.com/subnautica2/mods/37
+  Performance (Balanced/High/Ultra/Potato): Ghostiexd — https://www.nexusmods.com/subnautica2/mods/51
+
+Other credits
+  Caites — Ultimate Player Tweaks — https://www.curseforge.com/subnautica-2/mods/ultimate-player-tweaks
+  UE4SS Team — https://github.com/UE4SS-RE/RE-UE4SS/releases

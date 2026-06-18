@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Simple Subnautica 2 Mod Loader
+Comment=Open the Simple Subnautica 2 Mod Loader menu for Steam Deck
+Exec=bash -lc 'ROOT="$(dirname "$(readlink -f "$1")")"; exec bash "$ROOT/Helpers/Operations.sh" menu' _ %k
+Terminal=true
+Categories=Game;

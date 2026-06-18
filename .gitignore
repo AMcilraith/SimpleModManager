@@ -1,0 +1,39 @@
+# API Keys and secrets - never commit these
+Helpers/.env
+
+# UE4SS runtime (install via Helpers/Windows/Install-Ue4ssRelease.ps1 or the updater)
+ModManager/UE4SS/**
+!ModManager/UE4SS/.gitkeep
+
+# Installed UE4SS version marker (written by installer)
+ModManager/UE4SS/ue4ss_version.txt
+
+# User-installed mod content
+ModManager/EnabledMods/Mods/**
+!ModManager/EnabledMods/Mods/.gitkeep
+!ModManager/EnabledMods/Mods/mods.txt
+
+ModManager/EnabledMods/~mods/**
+!ModManager/EnabledMods/~mods/.gitkeep
+
+ModManager/EnabledMods/LogicMods/**
+!ModManager/EnabledMods/LogicMods/.gitkeep
+
+ModManager/DisabledMods/**
+!ModManager/DisabledMods/
+!ModManager/DisabledMods/**/
+!ModManager/DisabledMods/**/.gitkeep
+
+ModManager/DisabledUE4SS/**/*
+!ModManager/DisabledUE4SS/.gitkeep
+
+# Downloaded engine.ini presets (see EngineTweaks/SOURCES.md)
+ModManager/EngineTweaks/**/*
+!ModManager/EngineTweaks/**/.gitkeep
+!ModManager/EngineTweaks/SOURCES.md
+
+# Local update logs and API traces
+Helpers/ModUpdates/
+
+# Packaged archives
+*.zip
